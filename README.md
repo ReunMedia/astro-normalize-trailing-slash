@@ -1,8 +1,8 @@
 # Astro Normalize Trailing Slash
 
 A simple utility to normalize trailing slashes in URLs to match Astro project's
-`trailingSlash` config option. Especially useful when working with a CMS and not
-having to worry about adding or removing `/` at the end of every link.
+`trailingSlash` config option. Especially useful when working with a CMS to not
+have to worry about adding or removing `/` at the end of every link.
 
 ## Installation
 
@@ -30,6 +30,7 @@ import normalizeTrailingSlash from "@reunmedia/astro-normalize-trailing-slash";
 export default defineConfig({
   // Site option is used to determine which absolute URLs to normalize
   site: "https://example.com",
+  // Set your preferred trailingSlash option
   trailingSlash: "always",
   integrations: [normalizeTrailingSlash()],
 });
