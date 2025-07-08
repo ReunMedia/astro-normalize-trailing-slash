@@ -1,5 +1,8 @@
 # Astro Normalize Trailing Slash
 
+[![NPM Version](https://img.shields.io/npm/v/%40reunmedia%2Fastro-normalize-trailing-slash)](https://www.npmjs.com/package/@reunmedia/astro-normalize-trailing-slash)
+
+
 A simple utility to normalize trailing slashes in URLs to match Astro project's
 `trailingSlash` config option. Especially useful when working with a CMS to not
 have to worry about adding or removing `/` at the end of every link.
