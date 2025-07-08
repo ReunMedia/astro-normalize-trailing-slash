@@ -1,0 +1,20 @@
+---
+import Default from "../layouts/Default.astro";
+import { normalizeTrailingSlash } from "@reunmedia/astro-normalize-trailing-slash";
+---
+
+<Default>
+  <h1>astro-normalize-trailing-slash</h1>
+  <h2>Test Links</h2>
+  <ul>
+    <li><a href={normalizeTrailingSlash("/hello")}>Relative link</a></li>
+    <li>
+      <a href={normalizeTrailingSlash("http://localhost:4321/hello")}
+        >Internal absolute link</a
+      >
+    </li>
+    <li>
+      <a href={normalizeTrailingSlash("https://reun.eu")}>External link</a>
+    </li>
+  </ul>
+</Default>

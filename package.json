@@ -2,8 +2,23 @@
   "name": "@reunmedia/astro-normalize-trailing-slash",
   "version": "0.1.0",
   "description": "Utility to normalize trailing slashes in URLs to match Astro project's trailingSlash config",
+  "keywords": [
+    "astro-integration",
+    "withastro",
+    "astro",
+    "url",
+    "normalization"
+  ],
+  "homepage": "https://github.com/ReunMedia/astro-normalize-trailing-slash",
+  "license": "MIT",
+  "author": "Reun Media <company@reun.eu> (https://reun.eu)",
+  "sideEffects": false,
   "type": "module",
-  "module": "index.ts",
+  "exports": "./src/index.ts",
+  "files": [
+    "src",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "lint": "concurrently -p command \"npmPkgJsonLint .\" \"prettier . --check\" \"eslint\""
   },
