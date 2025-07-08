@@ -1,6 +1,6 @@
-import { expect, test, describe, it, beforeEach } from "bun:test";
-import globalStore from "../src/globalStore";
+import { beforeEach, describe, expect, it } from "bun:test";
 import { normalizeTrailingSlash } from "../src";
+import globalStore from "../src/globalStore";
 
 describe("Trailing slash ignore", () => {
   beforeEach(() => {

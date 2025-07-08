@@ -15,7 +15,6 @@ declare global {
   /**
    * Global variable that stores integration data.
    */
-  // eslint-disable-next-line no-var
   var astroIntegrationNormalizeTrailingSlash: GlobalStore;
 }
 
