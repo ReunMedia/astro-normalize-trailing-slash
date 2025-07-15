@@ -21,7 +21,8 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "lint": "concurrently -p command \"npmPkgJsonLint .\" \"prettier . --check\" \"eslint\""
+    "lint": "concurrently -p command \"npmPkgJsonLint .\" \"prettier . --check\" \"eslint\"",
+    "prepack": "bun run lint"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
