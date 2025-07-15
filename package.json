@@ -1,6 +1,6 @@
 {
   "name": "@reunmedia/astro-normalize-trailing-slash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Normalize trailing slashes in URLs to match Astro project's trailingSlash config",
   "keywords": [
     "astro-integration",
