@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "lint": "concurrently -p command \"npmPkgJsonLint .\" \"prettier . --check\" \"eslint\"",
-    "prepack": "bun run lint"
+    "prepack": "bun run lint && bun test"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
