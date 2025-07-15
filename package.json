@@ -7,7 +7,8 @@
     "withastro",
     "astro",
     "url",
-    "normalization"
+    "normalization",
+    "utility"
   ],
   "homepage": "https://github.com/ReunMedia/astro-normalize-trailing-slash",
   "license": "MIT",
